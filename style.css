@@ -1,0 +1,19 @@
+h1
+{
+    font-size: 30px !important;
+}
+.btn-primary:hover
+{
+    background-color: rgb(192, 239, 255);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    0%{box-shadow: 1px 1px 38px #820a68;}
+50%{box-shadow: 1px 1px 38px rgb(22, 1, 243);}
+100%{box-shadow: 1px 1px 38px rgb(93, 8, 118);}
+}
